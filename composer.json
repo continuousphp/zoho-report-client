@@ -1,0 +1,15 @@
+{
+  "name": "zoho/report-client",
+  "homepage": "https://github.com/continuousphp/zoho-report-client",
+  "description": "ReportClient provides the php based language binding to the https based api of ZohoReports",
+  "type": "library",
+  "license": "Apache-2.0",
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zoho\\Report\\": "src/"
+    }
+  }
+}
